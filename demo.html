@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>blur</title>
+</head>
+<body>
+    <style>
+        canvas{
+            width: 400px;
+            height: 300px;
+        }
+        img{
+            width: 400px;
+            height: 300px;
+        }
+    </style>
+
+    <img src="http://img.51youdian.com/data/ArticleImg/1702495/image/20151219/5674af67b62b4.jpg?v=123" alt="">
+    <canvas id="canvas"></canvas>
+
+    <script src="./easyBlur.js"></script>
+    <script>
+        easyBlur({
+            canvasId:"canvas",
+            CORS:true,
+            imgUrl:"http://img.51youdian.com/data/ArticleImg/1702495/image/20151219/5674af67b62b4.jpg?v=123",
+        });
+    </script>
+</body>
+</html>
