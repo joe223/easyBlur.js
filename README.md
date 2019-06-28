@@ -1,4 +1,9 @@
-#easyBlur.js#
+# EasyBlur.js
+
+Gaussian blurring.
+ 
+## Usage
+
 * You must create a `canvas` Element at first, like that
 
 	`<canvas id="canvas"></canvas>`
@@ -13,4 +18,5 @@
 	        });
     	</script>
 * It can load file from other website . Only if they allow you to do this 
-##:)##
+
+## :)
